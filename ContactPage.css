@@ -1,0 +1,103 @@
+/* General styling for the contact page */
+.contact-page {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.contact-page h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Contact form styling */
+.contact-form {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #e94e77; /* Bright color for emphasis */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #d23d62;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .contact-page h2 {
+    font-size: 28px;
+  }
+
+  .contact-page p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+
+  .form-group label {
+    font-size: 1rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+  }
+}
